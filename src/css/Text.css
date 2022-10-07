@@ -1,0 +1,44 @@
+.text{
+    font-size: 1.1rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+/*Colors*/
+.txt-blue{
+    color: var(--blue);
+}
+
+.txt-gray{
+    color: rgb(171, 170, 170);
+}
+
+.txt-red{
+    color: var(--red);
+}
+
+/*Special*/
+.bold{
+    font-weight: 700;
+}
+
+.light-bold{
+    font-weight: 600;
+}
+
+/*Font sizes*/
+
+.small{
+    font-size: 1rem;
+}
+
+.small-plus{
+    font-size: 1.3rem;
+}
+
+.medium{
+    font-size: 2rem;
+}
+
+.large{
+    font-size: 3rem;
+}

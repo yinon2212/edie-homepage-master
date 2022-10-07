@@ -1,0 +1,32 @@
+.designs-section{
+    position: relative;
+}
+
+.design-cards-container{
+    margin-top: 200px;
+    width: 65%;
+    display: grid;
+    grid-template-columns: auto auto;
+    row-gap: 2rem;
+    position: relative;
+}
+
+.design-cards-container .design-card{
+    cursor: pointer;
+}
+
+.design-cards-container .design-card:nth-child(2){
+    transform: translateY(-150px);
+}
+
+.design-cards-container .design-card:nth-child(3){
+    transform: translateY(150px);
+}
+
+.designs-section .link{
+    position: absolute;
+    bottom: -200px;
+    right: 0;
+    text-transform: capitalize;
+    cursor: pointer;
+}

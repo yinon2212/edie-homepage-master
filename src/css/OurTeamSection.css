@@ -1,0 +1,44 @@
+.our-team-section{
+    margin-top: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.our-team-section .container-left .txt-red,
+.our-team-section .topic{
+    margin-bottom: 10px;
+}
+
+.our-team-section .topic{
+    width: 70%;
+}
+
+.our-team-section .team-desc{
+    width: 30%;
+}
+
+.our-team-section .container-right{
+    display: flex;
+    align-items: center;
+    width: 50%;
+    margin-top: 150px;
+}
+
+.our-team-section .container-right .person-img{
+    border-radius: 20px;
+}
+
+.our-team-section .container-right .vertical-images{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+}
+
+.our-team-section .container-right .vertical-images .person-img{
+    margin-bottom: 30px;
+}
+
+.our-team-section .container-right .vertical-images .person1{
+    width: 90%;
+}

@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    --blue: rgb(0, 149, 255);
+    --red: rgb(255, 95, 95);
+    --green: rgb(70, 181, 70);
+    --black: black;
+    --white: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+html, body, #root{
+    width: 100%;
+    height: 100%;
+}
+
+#root{
+    padding: 50px;
+}
+
+.section{
+    width: 90%;
+    margin: 200px auto 0 auto;
+}
+
+.section .section-topic{
+    width: 25%;
+    margin-bottom: 50px;
+}
+
+
+@media screen and (max-width: 1400px){
+
+    .section .section-topic{
+        width: 40%;
+    }
+
+    /*Navbar*/
+    .navbar .navbar-links{
+        width: 50%;
+    }
+
+    /*Open section*/
+    .open-section .text-block{
+        padding-left: 5%;
+        width: 50%;
+    }
+
+    .open-section .contact-us-input{
+        padding-left: 5%;
+    }
+
+    /*Services Section*/
+    .services-section .service-cards-container{
+        padding-left: 0;
+    }
+
+    .services-section .service-cards-container .service-card .card-text{
+        font-size: 0.95rem;
+    }
+
+    /*Design Section*/
+    .design-cards-container{
+        margin-top: 100px;
+        width: 60%;
+        display: grid;
+        grid-template-columns: auto;
+        row-gap: 5rem;
+        padding-left: 10%;
+    }
+
+    .design-cards-container .design-card:nth-child(2),
+    .design-cards-container .design-card:nth-child(3){
+        transform: translateY(0);
+    }
+
+    /*Our Team Section*/
+    .our-team-section{
+        margin-top: 200px;
+        display: flex;
+        align-items: center;
+
+    }
+    
+    .our-team-section .topic{
+        font-size: 2rem;
+        font-weight: 600;
+    }
+
+    .our-team-section .team-desc{
+        width: 60%;
+    }
+
+    .our-team-section .container-right{
+        display: flex;
+        align-items: center;
+        width: 105%;
+        margin-top: 150px;
+    }
+
+    /*Reviews Sction*/
+    .reviews-section .review .review-txt{
+        width: 80%;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .section .section-topic{
+        width: 80%;
+    }
+
+    /*Navbar*/
+    .navbar .label-items-toggle{
+        display: block;
+        cursor: pointer;
+    }
+
+    .navbar .navbar-links{
+        display: none;
+        position: absolute;
+        flex-direction: column;
+        background-color: #e5e5e5;
+        width: 100%;
+        padding: 20px;
+        bottom: -280px;
+        left: -20px;
+        border-radius: 10px;
+    }
+
+    .navbar .navbar-links .navbar-link{
+        margin-bottom: 20px;
+    }
+
+    .navbar #items-toggle:checked ~ .navbar-links{
+        display: flex;
+    }
+
+    /*Open section*/
+    .open-section .text-block{
+        width: 100%;
+    }
+
+    /*Services Section*/
+    .services-section .service-cards-container{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /*Designs Section*/
+    .designs-section .design-cards-container{
+        width: 80%;
+        justify-content: center;
+        padding-left: 0;
+    }
+    .designs-section .design-cards-container .design-card .design-card-img{
+        width: 100%;
+    }
+
+    .designs-section .design-cards-container .design-card .project-topic{
+        font-size: 1rem;
+    }
+
+    .designs-section .design-cards-container .design-card .project-name{
+       font-size: 1.6rem;
+    }
+
+    /*Our Team Section*/
+    .our-team-section{
+        flex-direction: column;
+        margin-top: 400px;
+        justify-content: unset;
+    }
+
+    .our-team-section .container-right{
+        margin-top: 50px;
+    }
+
+    .our-team-section .container-right .person3{
+        width: 40%;
+    }
+
+    .our-team-section .container-right .vertical-images .person1{
+        width: 40%;
+    }
+
+    .our-team-section .container-right .vertical-images .person2{
+        width: 60%;
+    }
+
+    .our-team-section .container-right .vertical-images{
+        margin-left: 20px;
+    }
+
+    .our-team-section .container-right .vertical-images .person-img{
+        margin-bottom: 20px;
+    }
+
+    /*Reviews Sction*/
+    .reviews-section .review .review-txt{
+        width: 80%;
+        font-size: 1.5rem;
+    }
+
+    /*Footer*/
+    .footer{
+        flex-direction: column;
+    }
+
+    .footer .footer-links,
+    .footer .social-links-container{
+        margin-bottom: 100px;
+    }
+
+    
+}

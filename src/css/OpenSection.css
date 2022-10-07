@@ -1,0 +1,35 @@
+.open-section{
+    margin-bottom: 100px;
+    width: calc(100% - 100px);
+}
+
+.open-section .text-block{
+    padding-left: 200px;
+    width: 25%;
+    
+}
+
+.open-section .text-block .text{
+    margin-bottom: 30px;
+}
+
+.open-section .text-block:nth-child(1){
+    margin-bottom: 50px;
+}
+
+.open-section .text-block:nth-child(3){
+    margin-top: 50px;
+}
+
+.open-section .text-block .about-us-paragraph{
+    width: 60%;
+}
+
+.open-section .open-section-img{
+    width: 100%;
+    border-radius: 30px;
+}
+
+.open-section .contact-us-input{
+    padding-left: 200px;
+}

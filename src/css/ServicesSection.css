@@ -1,0 +1,14 @@
+.services-section{
+    margin-bottom: 100px;
+}
+
+.services-section .section-topic{
+    margin-bottom: 40px;
+    width: 20%;
+}
+
+.services-section .service-cards-container{
+    display: flex;
+    align-items: flex-start;
+    padding-left: 14%;
+}

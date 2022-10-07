@@ -1,0 +1,49 @@
+.service-card{
+    margin-right: 30px;
+    width: 250px;
+    padding: 50px 30px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.service-card i{
+    font-size: 1.5rem;
+    color: white;
+    padding: 14px;
+    border-radius: 10px;
+}
+
+.service-card .bg-blue{
+    background-color: var(--blue);
+}
+
+.service-card .bg-red{
+    background-color: var(--red);
+}
+
+.service-card .bg-green{
+    background-color: var(--green);
+}
+
+.service-card .card-topic{
+    margin-top: 20px;
+}
+
+.service-card i,
+.service-card .card-topic,
+.service-card .card-text{
+    margin-bottom: 20px;
+}
+
+.service-card .card-text{
+    width: 80%;
+}
+
+.service-card:hover{
+    box-shadow: 1px 10px 30px rgba(164, 164, 164, 0.405);
+}
+
+.service-card:hover > .button{
+    background-color: var(--blue);
+    color: white;
+}

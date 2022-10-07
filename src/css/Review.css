@@ -1,0 +1,26 @@
+.review .review-txt{
+    width: 48%;
+    margin-bottom: 20px;
+}
+
+.review .user-details{
+    display: flex;
+    align-items: center;
+}
+
+.review .user-details .user-img{
+    width: 80px;
+    border-radius: 15px;
+}
+
+.review .user-details .user-text-details{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+
+.review .user-details .user-text-details .username{
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+}
